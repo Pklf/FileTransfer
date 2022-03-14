@@ -68,13 +68,15 @@ public class NormalJTree extends JFrame {
                 no = (DefaultMutableTreeNode) currentLevel[0];
 //                System.out.printf("%s (%d)\n", currentLevel[1], currentLevel[2]);
 
-                // If the file don't have extension, THIS program don't count it is a file
-                if (!Util.getFileExtension(currentLevel[1].toString()).equals("")) {
-//                    System.out.println(currentLevel[1].toString());
-                    selected_file_edited_set.add(currentLevel[1].toString());
-                }
-
                 Enumeration subLevel = no.children();
+
+                if (!subLevel.hasMoreElements()) {
+                    // If the file don't have extension, THIS program don't count it is a file
+                    if (!Util.getFileExtension(currentLevel[1].toString()).equals("")) {
+//                    System.out.println(currentLevel[1].toString());
+                        selected_file_edited_set.add(currentLevel[1].toString());
+                    }
+                }
                 while (subLevel.hasMoreElements()) {
                     DefaultMutableTreeNode child = (DefaultMutableTreeNode) subLevel.nextElement();
                     level.add(index++, new Object[] { child, currentLevel[1] + File.separator+

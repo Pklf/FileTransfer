@@ -30,6 +30,62 @@ Choose one of the options below:
 2. run FileTransfer.exe
 > Make sure you meet the above requirements
 
+## Screenshot
+
+## - Sender
+### Step 0. Sender Default Page
+![](Screenshot/Sender Default Page.png)
+
+### Step 1. Input receiver IP & port
+![](Screenshot/s1.png)
+
+### Step 2. Choose files / folder for selection
+![](Screenshot/s2.png)
+
+### Step 3. Choose files / folder to transfer
+![](Screenshot/s3.png)
+
+### Step 4. Start transfer files
+![](Screenshot/s4.png)
+
+### Step 5. Files transfer progress
+![](Screenshot/s5.png)
+
+### Step 6. Reminder to Sender
+![](Screenshot/s6.png)
+![](Screenshot/s7.png)
+
+## - Receiver
+
+### Step 0. Router port forwarding & set port
+![](Screenshot/r0_2.png)
+![](Screenshot/r0_1.png)
+
+### Step 1. Show sender's files
+![](Screenshot/r1.png)
+
+### Step 2. Delete files don't want
+![](Screenshot/r2.png)
+
+### Step 3. Confirm files want
+![](Screenshot/r3.png)
+
+### Step 4. Change Path if needed
+![](Screenshot/r4.png)
+
+### Step 5. Start receive
+![](Screenshot/r5.png)
+
+### Step 6. Receiver progress bar
+![](Screenshot/r6.png)
+
+### Step 7. Reminder to Receiver
+![](Screenshot/r7.png)
+
+### Step 8. Check Download path
+![](Screenshot/r8.png)
+
+
 # TO-DO List
 1. Improve code logic 
     - way to check which files receiver want (Have some new idea)
@@ -43,8 +99,6 @@ May not be all the resources I used and I edited most of them to fit my own purp
 - [JCheckboxTree]
 - [IPv4]
 - [JTree]
-
-[//]: # 
 
 [ASUS]:<https://www.asus.com/en/support/FAQ/114093//>
 [JCheckboxTree]:<https://stackoverflow.com/questions/21847411/java-swing-need-a-good-quality-developed-jtree-with-checkboxes/>

@@ -137,7 +137,7 @@ public class Receiver_Thread {
 
                         fileName = pathToSave + receiver_want_file;
 //                        System.out.println("receiver_want_file" + receiver_want_file);
-//                        System.out.println("fileName before created:" + fileName);
+                        System.out.println("fileName before created:" + fileName);
 
                         File createFile = new File(fileName);
                         createFile.getParentFile().mkdirs();  // create all parent directories
