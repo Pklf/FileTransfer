@@ -1,4 +1,4 @@
-# FileTransfer
+# FileTransfer (Individual hobby project)
 
 # About The Project
 In this project, I have developed a java application that allows users to transfer files using TCP sockets. This project is still a work in progress and there are still many improvements to be done. At the current stage, it works fine.
